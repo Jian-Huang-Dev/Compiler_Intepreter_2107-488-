@@ -1,0 +1,57 @@
+% main program
+{
+    % declarations
+    var num1 : integer
+    var num2 : integer
+    var result : integer 
+    var bool : boolean
+     
+    % statements
+    num1 := 10
+    num2 := -20 
+    bool := true
+     
+    % arithmetic operators
+    result := num1 + num2
+    result := num1 - num2
+    result := num1 * num2
+    result := num1 / num2
+     
+    % logical operators
+    if true
+    then exit
+     
+    if false
+    then exit
+     
+    if true and true
+    then exit
+     
+    if true or true
+    then exit
+     
+    if not false
+    then exit
+    
+    % comparison operators
+    if bool = true
+    then exit
+    
+    if bool not = false
+    then exit
+     
+    if result < num1 + num2
+    then exit
+     
+    if result <= num1 + num2
+    then exit
+     
+    if result > num1 + num2 
+    then exit
+     
+    if result >= num1 + num2
+    then exit
+    
+    % conditional expression 
+    bool := (bool ? true : false)
+} 

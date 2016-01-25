@@ -1,0 +1,28 @@
+% main program
+{
+    % array declarations
+    var array1[3] : integer % array with size of 3
+    var array2[1 .. 5] : integer % array with range 1 to 5
+    var array3[2 .. 2] : integer % array with range 2 to 2
+    var array4[-1 .. 1] : integer % array with range -1 to 1
+    var array5[-10 .. -5] : integer % array with range -10 to -5
+    var array6[5, 6] : integer % two dimensional array
+    var array7[1 .. 5, 1 .. 2] : integer % two dimensional array (bound)
+    var array8[-5 .. -1, -5 .. -2] : integer % two dimensional array (negative bound)
+    var array9[0 .. 0] : integer % array with range of 0 to 0  
+  
+    % some array usages
+    array1[1] := 1
+    array1[2] := 2
+    array1[3] := 3
+  
+    array2[1] := arrays1[1] + arrays1[2]
+    array3[2] := array2[1]
+    array4[-1] := array2[1]
+    array5[-6] := array2[1]
+    array6[1, 2] := array2[1]
+    array7[2, 2] := array2[1]
+    array8[-2, -3] := array2[1]
+    array9[0] := array2[1]
+}
+  

@@ -1,0 +1,39 @@
+% main program
+{
+
+    % function without parameter
+    function func1 : integer {
+        var num : integer
+        num := 10
+        return num
+    }
+
+    % function with parameter
+    function func2(boolean : bool) : boolean {
+        bool := true
+        return with bool
+    }
+
+    % procedure without parameter
+    procedure proce1 {
+        write "string output"
+        return
+    }
+
+    % procedure with parameter
+    procedure proce2(boolean : bool) {
+        bool := false
+        return
+    }
+
+    % statements
+    var bool : boolean
+    bool := true
+
+    % statements: calling functions and procedures
+    if func1 = 10
+    then proce1
+
+    if func2(bool)
+    then proce2(bool)
+}
